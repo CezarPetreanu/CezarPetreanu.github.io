@@ -1,0 +1,63 @@
+body{
+
+   	font-family:Verdana, Arial, Georgia;
+   	background-color: red;
+   	color:#black;
+}
+
+#search {
+	
+	background-color: #4e5560;
+
+	color:#d6f4ff;
+	
+	border-radius: 32px;
+	
+	height: 35px;
+	width: 100%;
+	
+	vertical-align:middle;
+}
+
+#search a:link , a:hover, a:visited {
+	
+	color: white;
+}
+
+#search a:active {
+	
+	color: #efff60;
+}
+
+
+#header{
+
+	height:180px;
+    	background-color: #121416;
+    	color:#ffffff;
+    	text-align:center;
+    	padding:10px;
+}
+#bara{
+
+	height:10px;
+	background-color: #121416;
+}
+ 
+#parteastanga{
+
+	padding-left: 3px;
+	border-radius: 16px;
+    	width:15%;
+	background-color:#1e2328;
+	min-height:900px;
+	float:left;
+}
+
+#continut{
+
+	width:84%;
+	background-color: #121416;
+	min-height:900px;
+	float:right;
+}	

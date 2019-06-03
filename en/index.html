@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+<html lang = "en">
+
+<head>
+	<title>FamFilm - Home</title>
+	
+	<meta charset=utf-8 />
+	<meta name="description" content="Welcome to FamFilm! Here you can find your perfect film to watch. Your choices, your movies, your experience." />
+	<meta name="keywords" content="famfilm, movie, movies" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link href="../css/home.css" type="text/css" rel="stylesheet" />
+<head>
+
+<body>
+
+	<font style="font-size: 10px; color:silver">
+		<b>EN</b> / <a href="../ro/index.html" style="color: silver">RO</a>
+	</font>
+	<div id="search">
+		<table width="100%">
+		
+			<tr>
+				<td align="center"><b>Home</b></td>
+				<td align="center"><a target="_self" href="login.php"><b>Login</b></a></td>
+				<td align="center"><a target="_self" href="register.php"><b>Register</b></a></td>
+				<td align="center"><a target="_self" href="contact_us.html"><b>Contact us</b></a></td>
+			</tr>
+		
+		</table>
+	</div>
+	
+	<div id="logo">
+	
+		<?php if(isset($_SESSION['username'])) : ?>
+		
+			<div align="right">
+				Welcome, <b><?php echo $_SESSION['name']; ?>!</b><br>
+			</div>
+		
+		<?php endif ?>
+		
+		<br>
+		<br>
+		<center>
+		<img src="../logo.png" width="50%">
+		</center>
+	</div>
+	
+	<div id="content">
+		<center><h1>WELCOME, MOVIE LOVER!</h1>
+		<p>If you're a movie enthusiast and you like to spend your days with friends, or alone, watching movies, you've come to the right place.</p>
+		<p>Are you tired of sites that show you "recommendations" you are not even interested in? You will be surprised that here you are building your own profile where you can watch and receive movie recommendations just from the series that interests you. We hope our short description has convinced you to create a new account now.</p>
+		<p>If you liked it, do not forget to recommend it to your friends.</p>
+		<p>Please, enjoy the movie!</p>
+	</div>
+	
+	<br>
+	<br>
+	<center>
+		<button type="button"><b>Find my movie!</b></button>
+	</center>
+	
+</body>
+
+</html>

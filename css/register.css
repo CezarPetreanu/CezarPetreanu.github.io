@@ -1,0 +1,138 @@
+body {
+	
+	background-color: #121416;
+	
+	font-family: Verdana;
+	
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 8px;
+}
+
+#search {
+	
+	background-color: #4e5560;
+	color:#d6f4ff;
+	
+	border-radius: 32px;
+	
+	height: 35px;
+	
+	vertical-align:middle;
+}
+
+#search a:link , a:hover, a:visited {
+	
+	color: white;
+}
+
+#search a:active {
+	
+	color: #efff60;
+}
+
+
+#content {
+	
+	color: silver;
+	
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#content h2 {
+	
+	color: #82b1ff;
+}
+
+#content input[type=text] {
+	
+	width: 100%;
+	height: 25px;
+	
+	border: 0;
+	border-radius: 8px;
+	
+	padding-left: 10px;
+	
+	background-color: #505a6b;
+	
+	color: white;
+}
+
+#content input[type=password] {
+	
+	width: 80%;
+	height: 25px;
+	
+	border: 0;
+	border-radius: 8px;
+	
+	padding-left: 5px;
+	
+	background-color: #505a6b;
+	
+	color: white;
+}
+
+input[type=submit] {
+	color: white;
+	background-color: #3a9cb2;
+	
+	border: 0px;
+	border-radius: 8px;
+	
+	width: 128px;
+	height: 32px;
+}
+
+input[type=submit]:hover {
+	color: white;
+	background-color: #b6bc00;
+	
+	border: 0px;
+	border-radius: 8px;
+	
+	width: 128px;
+	height: 32px;
+}
+
+@media only screen and (min-width : 1244px) {
+
+	body {
+	
+		background-color: #121416;
+		
+		font-family: Verdana;
+		
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 8px;
+	}
+
+	#content {
+	
+		color: silver;
+		
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+	
+	#content input[type=password] {
+	
+		width: 256px;
+		height: 25px;
+		
+		border: 0;
+		border-radius: 8px;
+		
+		padding-left: 10px;
+		
+		background-color: #505a6b;
+		
+		color: white;
+	}
+
+
+}
+
